@@ -16,6 +16,9 @@ const setupInput = function (conn) {
    if (key === '\u0064') {
      connection.write('Move: right');
    }
+   if (key === '\u0067') {
+     connection.write('Say: LOL');
+   }
     if (key === '\u0003') {
       process.exit();
     }
